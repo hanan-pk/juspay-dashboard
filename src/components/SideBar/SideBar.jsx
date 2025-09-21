@@ -2,7 +2,7 @@ import { Accordion, AccordionItem } from "@heroui/accordion";
 import { FaIdBadge } from "react-icons/fa";
 import { useState } from "react";
 import SideBarHeader from "./SideBarHeader/SideBarHeader";
-import styles from "./sideBar.module.scss";
+import styles from "./SideBar.module.scss";
 import Icon from "../Icons/Icons";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSideBar } from "../../hooks/useSideBar";
