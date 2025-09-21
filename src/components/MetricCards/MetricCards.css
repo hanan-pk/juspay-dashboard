@@ -1,0 +1,66 @@
+.metric-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+.metric-card {
+    padding: 24px;
+    border-radius: 16px;
+    width: 212px;
+    min-height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.metric-card.customers {
+    background-color: #e3f5ff;
+}
+
+.metric-card.orders {
+    background-color: #f7f9fb;
+}
+
+.metric-card.revenue {
+    background-color: #f7f9fb;
+}
+
+.metric-card.growth {
+    background-color: #e5ecf6;
+}
+
+.metric-content h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1c1c1c;
+    margin-bottom: 8px;
+}
+
+.metric-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1c1c1c;
+}
+
+.metric-change {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1c1c1c;
+}
+
+.metric-change svg {
+    width: 16px;
+    height: 16px;
+}

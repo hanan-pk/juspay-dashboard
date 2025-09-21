@@ -1,0 +1,13 @@
+.sidebar {
+  position: relative;
+  z-index: 99;
+  width: 240px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid rgba(28, 28, 28, 0.1);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}

@@ -1,0 +1,46 @@
+.notificationsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1c1c1c;
+    padding: 8px 4px;
+  }
+}
+
+.notificationItem {
+  display: flex;
+  gap: 8px;
+  padding: 4px;
+}
+
+.notificationIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 4px;
+}
+
+.notificationContent {
+  flex: 1;
+
+  p {
+    font-size: 14px;
+    color: #1c1c1c;
+  }
+
+  .notificationTime {
+    display: block;
+    font-size: 12px;
+    color: rgba(28, 28, 28, 0.4);
+    margin-top: -2px;
+  }
+}

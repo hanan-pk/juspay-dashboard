@@ -1,0 +1,92 @@
+.projections-chart {
+    background-color: #F7F9FB;
+    border-radius: 16px;
+    padding: 24px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.projections-chart h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C1C1C;
+}
+
+.chart-container {
+    flex: 1;
+    display: flex;
+    gap: 16px;
+}
+
+.chart-y-axis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 26px;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(28, 28, 28, 0.4);
+    padding: 16px 0 28px;
+}
+
+.chart-area {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-grid {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+    height: calc(100% - 44px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-line {
+    height: 1px;
+    background-color: rgba(28, 28, 28, 0.05);
+}
+
+.grid-line.bottom {
+    background-color: rgba(28, 28, 28, 0.2);
+}
+
+.chart-bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: calc(100% - 28px);
+    padding: 16px 0 0;
+}
+
+.bar-group {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 16px;
+}
+
+.bar {
+    width: 25px;
+    background: linear-gradient(180deg, #A8C5DA 0%, #E3F5FF 100%);
+    border-radius: 4px 4px 0 0;
+}
+
+.chart-x-axis {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(28, 28, 28, 0.4);
+    padding-top: 8px;
+}

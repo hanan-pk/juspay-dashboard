@@ -1,0 +1,66 @@
+.sidebarHeader {
+  margin-bottom: 16px;
+}
+
+.nameBadge {
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 24px;
+  height: 24px;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.brandIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+}
+
+.brandText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1c1c1c;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 16px;
+
+  li {
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 6px;
+    color: var(--color-gray-light);
+
+    &.active {
+      color: var(--color-gray-medium);
+    }
+    &:hover {
+      background: var(--color-gray-lighter);
+    }
+  }
+}
+.listItems {
+  padding: 10px 0 0 10px;
+  span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    small {
+      display: inline-block;
+      margin-right: 8px;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.header {
+  height: 68px;
+  width: calc(100% - (240px + 280px));
+  position: fixed;
+  right: 280px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(28, 28, 28, 0.1);
+  padding: 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 312px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-btn {
+  width: 28px;
+  height: 28px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 4px;
+
+  &:hover {
+    background-color: rgba(28, 28, 28, 0.05);
+  }
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+.breadcrumb-item {
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  color: rgba(28, 28, 28, 0.4);
+
+  &.active {
+    color: #1c1c1c;
+  }
+}
+
+.breadcrumb-separator {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(28, 28, 28, 0.2);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 14px 0;
+
+  input {
+    height: 20px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
